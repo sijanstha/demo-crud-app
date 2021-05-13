@@ -9,7 +9,7 @@ public class Customer {
 		@Id // primary key unique
 		@GeneratedValue(strategy = GenerationType.AUTO) // auto increment
 		@Column(name = "id", updatable = false)
-	private int id;
+	private in id;
 	
 	@Column(name = "name", nullable = false)
 	private String name;
