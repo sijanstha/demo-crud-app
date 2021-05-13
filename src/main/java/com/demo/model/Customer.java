@@ -16,6 +16,9 @@ public class Customer {
 	
 	@Column(name = "address")
 	private String address;
+
+	@Column(name = "phone_number")
+	private String phoneNumber;
 	
 	public int getId() {
 		return id;
@@ -36,9 +39,14 @@ public class Customer {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	
-	
+
+	public String getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
 }
 
 
